@@ -12,9 +12,11 @@
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.19",
+    "prisma": "^4.0.0",
     "standard": "^17.0.0"
   },
   "dependencies": {
+    "@prisma/client": "^4.0.0",
     "apollo-server": "2",
     "graphql": "14.6.0"
   }
