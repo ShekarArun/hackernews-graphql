@@ -1,6 +1,6 @@
 # Hackernews Clone (GraphQL)
 
-Sample project to work with GraphQL queries.
+Sample project to work with GraphQL queries.  
 Simulation of the [Hackernews platform](https://news.ycombinator.com/)
 
 <br/>
