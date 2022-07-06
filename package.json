@@ -11,5 +11,8 @@
   "author": "ShekarArun <shekar.arun@gmail.com>",
   "license": "MIT",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "apollo-server": "2",
+    "graphql": "^16.5.0"
+  }
 }
