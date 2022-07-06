@@ -1,0 +1,15 @@
+{
+  "name": "hackernews-graphql",
+  "version": "0.1.0",
+  "description": "Hackernews clone to understand the workings of GraphQL",
+  "repository": "git@github.com:ShekarArun/hackernews-graphql.git",
+  "keywords": [
+    "graphql",
+    "apollo",
+    "node"
+  ],
+  "author": "ShekarArun <shekar.arun@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
