@@ -9,7 +9,9 @@ const { getUserId } = require('./utils')
 const Query = require('./resolvers/Query')
 const Mutation = require('./resolvers/Mutation')
 const Link = require('./resolvers/Link')
-const User = require('./resolvers/User');
+const User = require('./resolvers/User')
+const Subscription = require('./resolvers/Subscription')
+const Vote = require('./resolvers/Vote');
 
 // const { randomUUID } = require('crypto');
 
@@ -22,7 +24,7 @@ const User = require('./resolvers/User');
 (async () => {
   const prisma = new PrismaClient()
   const pubsub = new PubSub()
-  const resolvers = { Query, Mutation, User, Link }
+  const resolvers = { Query, Mutation, Subscription, User, Link, Vote }
 
   const apolloServer = new ApolloServer({
     typeDefs: fs.readFileSync(path.join(__dirname, 'schema.graphql'), 'utf-8'),
